@@ -138,8 +138,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 12.7 0)
+			(property "Reference" "J1"
+				(at 0 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -149,16 +149,17 @@
 				)
 			)
 			(property "Value" "Conn_01x10"
-				(at 0 -15.24 0)
+				(at 0 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "GLCS:KYOCERA_AVX9159-006"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -336,7 +337,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -354,7 +355,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -372,7 +373,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -390,7 +391,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -408,7 +409,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -426,7 +427,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -444,7 +445,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -462,7 +463,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -480,7 +481,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -498,7 +499,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -518,7 +519,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_LED"
+		(symbol "GLCS:SW_Push_LED_K6-6133D04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -529,7 +530,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 7.62 0)
+				(at 0 9.144 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -538,8 +539,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_Push_LED"
-				(at 0 -3.81 0)
+			(property "Value" "SW_Push_LED_K6-6133D04"
+				(at 0 -4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -548,18 +549,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "GLCS:SW_LED_K6-6133d04"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -570,7 +560,18 @@
 					)
 				)
 			)
-			(property "Description" "Push button switch with LED, generic"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C128977.pdf"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch with LED, K6-6133D04-N1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -581,7 +582,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button LED"
+			(property "ki_keywords" "switch normally-open pushbutton push-button LED K6-6133D04-N1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -592,7 +593,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_LED_0_0"
+			(symbol "SW_Push_LED_K6-6133D04_0_0"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 2.54 0)
@@ -678,7 +679,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_LED_0_1"
+			(symbol "SW_Push_LED_K6-6133D04_0_1"
 				(circle
 					(center -2.032 2.54)
 					(radius 0.508)
@@ -692,8 +693,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.588)
+						(xy -1.6351 2.86) (xy 1.5417 4.8066)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 5.08)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -713,20 +725,21 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy -2.54 3.81)
-					)
+			)
+			(symbol "SW_Push_LED_K6-6133D04_1_1"
+				(rectangle
+					(start -3.175 6.35)
+					(end 3.175 -3.175)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 5.08 5.08 180)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -744,7 +757,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -762,9 +775,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "K"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -772,6 +785,63 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -789,174 +859,7 @@
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_LED_1_1"
-				(rectangle
-					(start -3.175 5.715)
-					(end 3.175 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -967,32 +870,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1119,53 +1004,29 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 58.42 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12db8427-fafe-4d8b-ae7c-43891ac0b5e1")
+	(rectangle
+		(start 43.18 38.735)
+		(end 64.135 79.375)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ae596217-1cfc-40d5-b6a8-afcdbbeb95fb")
 	)
-	(junction
-		(at 58.42 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26940025-5747-406d-83c9-296cb1f508e9")
-	)
-	(junction
-		(at 58.42 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bac4750-5046-4fd9-8724-275d56e74e59")
-	)
-	(junction
-		(at 58.42 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ca6f8e5-a937-4464-ab45-9913a70d2bea")
-	)
-	(junction
-		(at 58.42 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a13b15b6-9219-40e0-8247-d9ee4867a28f")
-	)
-	(junction
-		(at 58.42 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba411774-d9fe-4318-a12f-9510f6ba9913")
-	)
-	(junction
-		(at 58.42 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d04b6ddc-aa2d-4c2a-bad7-9a3b61f53d54")
-	)
-	(junction
-		(at 58.42 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4738fd4-b02f-4739-84b3-fa3a9643afcb")
+	(text "8-bit\nOutput"
+		(exclude_from_sim no)
+		(at 52.324 75.438 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f57e3ca6-d7ee-4b9b-8d8c-4345c2e85937")
 	)
 	(no_connect
 		(at 52.07 64.77)
@@ -1203,16 +1064,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 62.23) (xy 62.23 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3db9fbe7-efe2-43d7-a71a-6a6066174f2f")
-	)
-	(wire
-		(pts
 			(xy 52.07 52.07) (xy 58.42 52.07)
 		)
 		(stroke
@@ -1243,16 +1094,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 64.77 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a13c84f-07fb-4793-b3fe-9f17689f20ea")
-	)
-	(wire
-		(pts
 			(xy 52.07 46.99) (xy 58.42 46.99)
 		)
 		(stroke
@@ -1260,26 +1101,6 @@
 			(type default)
 		)
 		(uuid "611c5090-3843-4d72-a4f1-bd9a74c5ab3e")
-	)
-	(wire
-		(pts
-			(xy 58.42 57.15) (xy 67.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fcd2a11-6c0f-41fb-a7cd-02706b876196")
-	)
-	(wire
-		(pts
-			(xy 58.42 46.99) (xy 74.93 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d4fb355-ec4d-4f45-8e4e-8b2b7d4beee6")
 	)
 	(wire
 		(pts
@@ -1293,16 +1114,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 49.53) (xy 74.93 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89b75a3b-07ac-4b6f-8cc5-ca193dbde5bd")
-	)
-	(wire
-		(pts
 			(xy 53.34 67.31) (xy 53.34 68.58)
 		)
 		(stroke
@@ -1313,16 +1124,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 54.61) (xy 69.85 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92b642c4-d099-4c2d-95cd-565585c90308")
-	)
-	(wire
-		(pts
 			(xy 52.07 57.15) (xy 58.42 57.15)
 		)
 		(stroke
@@ -1330,26 +1131,6 @@
 			(type default)
 		)
 		(uuid "bdb6bebe-a8c7-4878-a954-d4d037053ab2")
-	)
-	(wire
-		(pts
-			(xy 58.42 52.07) (xy 74.93 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c150cdc4-e700-4391-98ee-85713efc5b83")
-	)
-	(wire
-		(pts
-			(xy 58.42 44.45) (xy 74.93 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8e21ba8-dab9-4a12-a28c-890b15652ff4")
 	)
 	(label "B1"
 		(at 54.61 57.15 0)
@@ -1933,8 +1714,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 83.82 68.58 0)
+		(lib_id "GLCS:SW_Push_LED_K6-6133D04")
+		(at 95.25 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1942,10 +1723,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a352b274-e53a-40b8-8f0d-b64ef7bee624")
+		(uuid "a798349a-5cdb-4d9a-9bff-dc4be5631728")
 		(property "Reference" "SW2"
-			(at 83.82 59.69 0)
+			(at 95.25 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1954,18 +1734,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 83.82 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 83.82 68.58 0)
+		(property "Value" "SW_Push_LED_K6-6133D04"
+			(at 95.25 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1975,8 +1745,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 83.82 76.2 0)
+		(property "Footprint" "GLCS:SW_LED_K6-6133d04"
+			(at 95.25 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,8 +1756,8 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 83.82 68.58 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C128977.pdf"
+			(at 95.25 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1997,14 +1767,40 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "b7874fea-ca3c-484d-aab8-5acef8c5f6c5")
-		)
-		(pin "2"
-			(uuid "8ab55fb6-ac26-4a47-9239-c723bfee8da1")
+		(property "Description" "Push button switch with LED, K6-6133D04-N1"
+			(at 95.25 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "56a30122-e575-4979-bd67-c05ca9f19ed5")
+			(uuid "4c9c9825-f02b-4071-abb5-51762622ee85")
+		)
+		(pin "2"
+			(uuid "8a6fcb3f-a23f-4305-bb1c-1cb7ee695aff")
+		)
+		(pin "4"
+			(uuid "5440994d-de1b-4b31-8f99-8c48ae06e720")
+		)
+		(pin "7"
+			(uuid "eebc1ed4-cfa8-42d4-93af-9d4d10036661")
+		)
+		(pin "8"
+			(uuid "230ced6a-48cb-417e-bb29-57b165fb7fbb")
+		)
+		(pin "3"
+			(uuid "0d56f9f9-3b7a-4679-89b1-8594c5a21162")
+		)
+		(pin "6"
+			(uuid "fc66afed-d692-43b7-a3c5-66ea698d261d")
+		)
+		(pin "5"
+			(uuid "5df8cfe7-e8bf-4322-8405-a4f5645230eb")
 		)
 		(instances
 			(project "dyb-keypad-1"
@@ -2326,92 +2122,6 @@
 			(project "dyb-keypad-1"
 				(path "/8a92ff1d-0247-4ed8-a25c-ec6e0e8e6922"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_LED")
-		(at 101.6 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eeb505b7-df73-4762-b627-7733435db303")
-		(property "Reference" "SW1"
-			(at 101.6 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_LED"
-			(at 101.6 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
-			(at 101.6 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch with LED, generic"
-			(at 101.6 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "11d419e4-5c75-4435-bd60-07ff706e2273")
-		)
-		(pin "1"
-			(uuid "21cad99b-6ba5-4f1c-b54d-9329b8b477d8")
-		)
-		(pin "3"
-			(uuid "c26770e4-1880-40b5-8325-cb99042a8056")
-		)
-		(pin "4"
-			(uuid "5492e633-ecba-49dc-b781-6d2ae0878a73")
-		)
-		(instances
-			(project "dyb-keypad-1"
-				(path "/8a92ff1d-0247-4ed8-a25c-ec6e0e8e6922"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
